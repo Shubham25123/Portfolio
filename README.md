@@ -46,24 +46,28 @@ screenshot here:*
 
 
 ## 📁 Folder Structure
+
+```bash
 react-portfolio/
 ├── public/
 ├── src/
-│ ├── assets/ # Images & media files
-│ ├── components/ # All React components
-│ │ ├── Home.jsx
-│ │ ├── About.jsx
-│ │ ├── Portfolio.jsx
-│ │ ├── Experience.jsx
-│ │ ├── Contact.jsx
-│ │ ├── Footer.jsx
-│ │ └── SocialLinks.jsx
-│ ├── App.jsx
-│ └── main.jsx
+│   ├── assets/             # Images & media files
+│   ├── components/         # All React components
+│   │   ├── Home.jsx
+│   │   ├── About.jsx
+│   │   ├── Portfolio.jsx
+│   │   ├── Experience.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Footer.jsx
+│   │   └── SocialLinks.jsx
+│   ├── App.jsx
+│   └── main.jsx
 ├── .gitignore
 ├── index.html
 ├── package.json
 └── tailwind.config.js
+```
+
 
 
 🌐 Connect With Me
