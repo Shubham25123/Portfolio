@@ -33,10 +33,17 @@
 ---
 
 ## 🖼️ Project Preview
-
-> *Add your screenshot here:*
-```md
 ![Portfolio Preview](./assets/portfolio-preview.png)
+
+screenshot here:*
+![Screenshot 2025-06-22 235532](https://github.com/user-attachments/assets/3a46aa94-d883-4aff-92e8-bb692b054f58)
+![Screenshot 2025-06-22 235559](https://github.com/user-attachments/assets/aa3f90ef-7d7d-48ee-bf0d-d2e83ab5bcd0)
+![Screenshot 2025-06-22 235626](https://github.com/user-attachments/assets/e2117ff7-4b8e-4bfe-92e7-36c1ea96c025)
+![Screenshot 2025-06-22 235658](https://github.com/user-attachments/assets/4829d984-88f7-4b3a-beab-7adf0c6dc015)
+![Screenshot 2025-06-22 235738](https://github.com/user-attachments/assets/2ad9a3c4-09c1-49df-8e19-bc5ed5d4907c)
+
+
+
 
 ## 📁 Folder Structure
 react-portfolio/
