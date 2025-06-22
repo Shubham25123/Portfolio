@@ -1,0 +1,140 @@
+/* ✅ Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+/* ✅ Tailwind Base Imports */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ✅ Font Setup */
+@layer base {
+  html {
+    font-family: "Raleway", sans-serif;
+  }
+}
+
+/* ✅ Root Background Gradient (Dark mode default) */
+#root {
+  background: linear-gradient(black 25%, rgb(31, 41, 55) 58%, black 15%);
+  min-height: 100vh;
+}
+
+/* ✅ Body fallback */
+body {
+  background: rgb(31, 41, 55);
+}
+
+/* ✅ Z-index fix for Nav */
+.nav {
+  z-index: 10;
+}
+
+/* ✅ Custom link underline effect */
+.link-underline {
+  border-bottom-width: 0;
+  background-image: linear-gradient(transparent, transparent),
+    linear-gradient(currentColor, currentColor);
+  background-size: 0 3px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.4s ease-in-out;
+}
+
+.link-underline:hover {
+  background-size: 100% 3px;
+  background-position: 0 100%;
+  line-height: 1.2;
+}
+
+/* ✅ Active Link Glow Effect (from NavBar.jsx) */
+.active-link {
+  font-weight: 600;
+  color: #0ea5e9; /* sky-500 */
+  position: relative;
+}
+
+.active-link::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background: linear-gradient(to right, #ec4899, #facc15);
+  border-radius: 2px;
+}
+
+/* ✅ Section Spacing */
+.portfolio,
+.contact {
+  margin-top: 8%;
+}
+
+.experience {
+  margin-top: 12%;
+}
+
+/* ✅ Nav text spacing */
+.nav-links {
+  text-underline-offset: 1rem;
+}
+
+/* ✅ Mobile Styles */
+@media screen and (max-width: 900px) {
+  #root {
+    background: linear-gradient(
+      rgb(31, 41, 55) 20%,
+      black 20%,
+      rgb(31, 41, 55) 65%,
+      black 25%
+    );
+    min-height: 100vh;
+  }
+
+  .about,
+  .contact,
+  .portfolio,
+  .experience,
+  .home {
+    text-align: center;
+    height: 100%;
+  }
+
+  .about,
+  .portfolio,
+  .experience {
+    margin-top: 10%;
+  }
+
+  .home img {
+    margin-top: 25%;
+  }
+
+  .small-screen {
+    display: block;
+  }
+
+  .big-screen {
+    display: none;
+  }
+
+  .gap-8 {
+    gap: 4rem;
+  }
+
+  .home h2 {
+    font-size: 2.7rem;
+    line-height: 3rem;
+    margin-top: 7%;
+  }
+
+  .portfolio-btn {
+    margin: auto;
+  }
+
+  .px-12 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
