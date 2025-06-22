@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://your-deployed-link.vercel.app/" target="_blank">
+  <a href="https://portfolio-black-mu-r2ca4gu6b0.vercel.app/" target="_blank">
     🔗 <strong>Live Demo</strong>
   </a>
 </p>
