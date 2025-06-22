@@ -61,9 +61,7 @@ react-portfolio/
 
 🌐 Connect With Me
 
-🔗 LinkedIn
-
-💼 GitHub
+🔗 LinkedIn:https://www.linkedin.com/in/shubham-sharma75/
 
 📧 Email: shubhamthakur25123@gmail.com
 
